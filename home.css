@@ -1,0 +1,116 @@
+body {
+	background-image:url("");
+	background-color: #dddddd;
+}
+
+#content {
+	width: 350px;
+	margin: auto;
+	text-align: center;
+}
+
+#navbar {
+	width: 350px;
+	margin: auto;
+	text-align: center;
+	margin-top: 15px;
+}
+
+#stats {
+	clear: both;
+	margin-top: 5px;
+	text-align: left;
+	width: 350px;
+	height: 12px;
+	line-height: 12px;
+	float: left;
+}
+
+#stats .exp {
+	margin-left: 8px;
+	width: 22px;
+	line-height: 12px;
+	display: inline-block;
+	font-family: 'Patua One', cursive;
+	font-size: 12px;
+	float: left;
+}
+
+#stats .exp-bar {
+	margin-left: 5px;
+	height: 10px;
+	background-color: #cccccc;
+	border: solid 1px #ffffff;
+	width: 220px;
+	float: left;
+}
+
+#stats .gold {
+	margin-left: 5px;
+	width: 55px;
+	line-height: 12px;
+	display: inline-block;
+	font-family: 'Patua One', cursive;
+	font-size: 12px;
+	text-align: right;
+}
+
+#stats img {
+	border: solid 1px #ffffff;
+	float: left;
+	margin-left: 8px;
+}
+
+#menu {
+	clear: both;
+	width: 345px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+#menu img {
+	height: 75px;
+	width: 75px;
+	margin: 3px;
+	float: left;
+	border: solid 2px #ffffff;
+}
+
+#content img {
+	margin-bottom: -25px;
+}
+
+#content .name {
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+	letter-spacing: 3px;
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+
+#content h1 {
+	width: 100%;
+	height: 70px;
+	font-family: 'Patua One', cursive;
+	font-weight: light;
+	font-size: 35px;
+	letter-spacing: -1px;
+	color: #000000;
+	line-height: 100px;
+	margin-top: -5px;
+	margin-bottom: 0px;
+}
+
+button[type="button"] {
+	width: 250px;
+	height: 55px;
+	border: 0px;
+	margin-top: 5px;
+	background-color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	letter-spacing: -2px;
+	line-height: 50px;
+	color: #222222;
+	border-bottom: solid 4px #aaaaaa;
+}
