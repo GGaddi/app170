@@ -24,7 +24,7 @@
 	margin: 5px;
 	height: 46px;
 	width: 46px;
-	border: solid 2px #ffffff;
+	padding: 2px;
 	float: left;
 }
 
@@ -32,9 +32,9 @@
 	line-height: 60px;
 	font-family: 'Patua One', cursive;
 	font-size: 25px;
-	margin-left: 15px;
+	margin-left: 10px;
 	float: left;
-	margin-top: -2px;
+	margin-top: 1px;
 }
 
 #backbar .trail a {
@@ -107,5 +107,5 @@
 	width: 75px;
 	margin: 3px;
 	float: left;
-	border: solid 2px #ffffff;
+	padding: 2px;
 }
