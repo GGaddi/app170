@@ -77,6 +77,7 @@ body {
 	width: 225px;
 	float: left;
 	height: 16px;
+	margin-top: -5px;
 }
 
 .mons {
@@ -88,5 +89,44 @@ body {
 	height: 12px;
 	width: 12px;
 	float: left;
+	margin-left: 5px;
+}
+
+.tabs {
+	height: 57px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.tabs img {
+	height: 53px;
+	width: 53px;
+	border: solid 1px #ffffff;
+	border-top: solid 2px #ffffff;
+	border-bottom: solid 2px #ffffff;
+}
+
+.priv {
+	clear: both;	
+	font-family: 'Patua One', cursive;
+	float: left;
+	margin-top: 10px;
+	font-weight: normal;
+	margin-left: 5px;
+}
+
+button[type="button"] {
+	clear: both;
+	height: 35px;
+	width: 345px;
+	border: 0px;
+	background-color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: solid 3px #aaaaaa;
+	font-size: 22px;
+	letter-spacing: -2px;
+	color: #222222;
+	float: left;
+	margin-top: 12px;
 	margin-left: 5px;
 }
