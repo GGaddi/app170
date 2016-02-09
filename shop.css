@@ -8,7 +8,7 @@ body {
 	width: 350px;
 }
 
-#money img {
+#money .coins {
 	height: 12px;
 	width: 12px;
 	float: left;
@@ -17,13 +17,17 @@ body {
 }
 
 #money .arrow {
-	width: 63px;
 	float: left;
-	margin-left: 10px;
-	text-align: left;
-	padding-left: 10px;
-	font-size: 25px;
-	height: 25px;
+	margin-top: 3px;
+	margin-left: 40px;
+}
+
+#money .before {
+	padding-left: 20px;
+}
+
+#money .bef {
+	width: 60px !important;
 }
 
 #money .gold {
@@ -33,57 +37,79 @@ body {
 	display: inline-block;
 	font-family: 'Patua One', cursive;
 	font-size: 18px;
-	text-align: right;
+	text-align: left;
 	float: left;
 }
 
-#etabs {
-	clear: both;
-	width: 350px;
-	margin-top: 5px;
-	text-align: center;
-}
-
-.left-img-2 {
-	border-left: solid 2px #ffffff !important;
-}
-
-.right-img-2 {
-	border-right: solid 2px #ffffff !important;
-}
-
-#etabs .tabs img {
-	height: 53px;
-	width: 53px;
-	border: solid 1px #ffffff;
-	border-top: solid 2px #ffffff;
-	border-bottom: solid 2px #ffffff;
-}
-
-#etabs .tabs {
-	height: 57px;
-	margin: auto;
-}
 
 #etabs .items {
-	margin: 0px 9px 0px 9px;
+	margin: 0px -10px 0px 9px;
 	background-color: #ffffff;
 	border: solid 2px #ffffff;
 	border-top: 0px;
 	height: 137px;
+	width: 326px;
 	overflow: hidden;
 	border-bottom: solid 4px #ffffff;
+	position: relative;
 }
 
 #etabs .items .grid {
 	line-height: 0px;
-	text-align: left;
+	text-align: center;
+	height: 137px;
+	width: 350px;
+	overflow: auto;
+	display: none;
 }
 
-#etabs .items .grid img {
+.entries {
 	height: 105px;
 	width: 105px;
 	margin: 2px;
+	float: left;
+
+	position: relative;
+	z-index: 1;
+}
+
+.entries .price {
+	font-family: 'Patua One',cursive;
+	font-size: 14px;
+	height: 12px;
+	float: left;
+	margin-top: -10px;
+	position: relative;
+	z-index: 2;
+}
+
+.entries .coin {
+	float: left;
+	position: relative;
+	z-index: 2;
+	margin-top: -6px;
+	margin-left: 5px;
+	margin-right: 3px;
+}
+
+.entries .level {
+	position: relative;
+	font-family: 'Patua One',cursive;
+	font-size: 15px;
+	height: 15px;
+	margin-top: -95px;
+	width: 105px;
+	z-index: 2;
+}
+
+.entries .owned {
+	height: 12px;
+	width: 12px;
+	position: relative;
+	margin-top: -102px;
+	margin-right: 3px;
+	z-index: 3;
+	float: right;
 }
 
 #buttons {
