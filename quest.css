@@ -6,6 +6,32 @@ body {
 
 #quest {
 	width: 350px;
+	margin-top: 70px;
+}
+
+#quest h1 {
+	text-align: left;
+	font-family: 'Patua One',cursive;
+	font-size: 35px;
+	margin: 0px;
+	clear: both;
+	margin: 40px 0px 0px 5px;
+	height: 35px;
+	line-height: 35px;
+}
+
+
+#break-time, #boss-time {
+	clear: both;
+	width: 325px;
+	height: 25px;
+	margin-top: 10px;
+	text-align: right;
+	margin-right: 25px;
+	line-height: 25px;
+	font-family: 'Patua One',cursive;
+	font-size: 20px;
+	margin-bottom: 40px;
 }
 
 #quest button[type="button"] {
@@ -19,9 +45,9 @@ body {
 	font-weight: bold;
 	letter-spacing: -1px;
 	line-height: 50px;
-	color: #222222;
+	color: #000000;
 	border-bottom: solid 4px #aaaaaa;
-	margin-top: 12px;
+	margin-top: 40px;
 }
 
 #quest input[type="tel"] {
@@ -29,10 +55,10 @@ body {
 	height: 25px;
 	border: 0px;
 	border-right: solid 4px #cccccc;
-	float: left;
 	font-size: 20px;
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
+	color: #222222;
 
 }
 #quest input[type="tel"]:focus, #quest input[type="tel"].focus {
