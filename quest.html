@@ -1,7 +1,7 @@
 <!doctype HTML>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="quest.css">
 	<link rel="stylesheet" type="text/css" href="global.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -12,16 +12,20 @@
 
 	<div id="wrap">
 		<div id="content">
-			<div class="name">myname</div>
-			<div class="image">
-				<img src="http://placehold.it/250x250"/> 
-				<div class="lvl">LVL 50</div>
+			<div id="backbar">
+				<a href="home.html"><img src="imgs/home.png"/></a>
+				<div class="trail">
+					<a href="llink">quest details</a>
+				</div>
 			</div>
 
-			<h1>go on an adventure?</h1>
-
-			<button type="button" name="solo" onclick="location.href = 'quest.html';">solo</button>
-			<button type="button" name="group" onclick="location.href = 'group.html';">group</button>
+			<form id="quest">
+				<input type="tel" name="break-hr" value="00" />
+				<input type="tel" name="break-min" value="30" />
+				<input type="tel" name="boss-hr" value="01"/>
+				<input type="tel" name="boss-min" value="00"/>
+				<button type="button" name="begin">begin adventure</button>
+			</form>
 		</div>
 
 		<div id="navbar">

@@ -1,0 +1,45 @@
+body {
+	background-image:url("");
+	background-color: #dddddd;
+}
+
+
+#quest {
+	width: 350px;
+}
+
+#quest button[type="button"] {
+	width: 350px;
+	height: 55px;
+	border: 0px;
+	margin-top: 5px;
+	background-color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 50px;
+	color: #222222;
+	border-bottom: solid 4px #aaaaaa;
+	margin-top: 12px;
+}
+
+#quest input[type="tel"] {
+	width: 30px;
+	height: 25px;
+	border: 0px;
+	border-right: solid 4px #cccccc;
+	float: left;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+
+}
+#quest input[type="tel"]:focus, #quest input[type="tel"].focus {
+	outline: none;
+	border-right: solid 4px #aaaaaa;
+	transition: border 0.3s;
+	-moz-transition: border 0.3s;
+	-webkit-transition: border 0.3s;
+	-o-transition: border 0.3s;
+}

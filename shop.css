@@ -8,7 +8,7 @@ body {
 	width: 350px;
 }
 
-#money img {
+#money .coins {
 	height: 12px;
 	width: 12px;
 	float: left;
@@ -17,13 +17,17 @@ body {
 }
 
 #money .arrow {
-	width: 63px;
 	float: left;
-	margin-left: 10px;
-	text-align: left;
-	padding-left: 10px;
-	font-size: 25px;
-	height: 25px;
+	margin-top: 3px;
+	margin-left: 30px;
+}
+
+#money .before {
+	padding-left: 20px;
+}
+
+#money .bef {
+	width: 60px !important;
 }
 
 #money .gold {
@@ -33,7 +37,7 @@ body {
 	display: inline-block;
 	font-family: 'Patua One', cursive;
 	font-size: 18px;
-	text-align: right;
+	text-align: left;
 	float: left;
 }
 
@@ -77,13 +81,56 @@ body {
 
 #etabs .items .grid {
 	line-height: 0px;
-	text-align: left;
+	text-align: center;
 }
 
-#etabs .items .grid img {
+.entries {
 	height: 105px;
 	width: 105px;
 	margin: 2px;
+	float: left;
+
+	position: relative;
+	z-index: 1;
+}
+
+.entries .price {
+	font-family: 'Patua One',cursive;
+	font-size: 14px;
+	height: 12px;
+	float: left;
+	margin-top: -10px;
+	position: relative;
+	z-index: 2;
+}
+
+.entries .coin {
+	float: left;
+	position: relative;
+	z-index: 2;
+	margin-top: -6px;
+	margin-left: 5px;
+	margin-right: 3px;
+}
+
+.entries .level {
+	position: relative;
+	font-family: 'Patua One',cursive;
+	font-size: 15px;
+	height: 15px;
+	margin-top: -95px;
+	width: 105px;
+	z-index: 2;
+}
+
+.entries .owned {
+	height: 12px;
+	width: 12px;
+	position: relative;
+	margin-top: -102px;
+	margin-right: 3px;
+	z-index: 3;
+	float: right;
 }
 
 #buttons {
