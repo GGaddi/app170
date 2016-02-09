@@ -5,19 +5,37 @@
 	text-align: center;
 }
 
+.on {
+	display: none;
+	position: relative;
+	z-index: 3;
+}
+
+.img-curr {
+	display: block;
+}
+
+.off {
+	display: block;
+	position: absolute;
+	z-index: 2px;
+}
+
+.off-first {
+	margin-top: -55px;
+}
+
 .tab-img {
 	list-style: none;
 	float: left;
-	height: 53px;
-	width: 53px;	
-	border: solid 1px #ffffff;
-	border-top: solid 2px #ffffff;
-	border-bottom: solid 2px #ffffff;
+	height: 55px;
+	width: 55px;
+	overflow: hidden;
 }
 
 .tab-img img {
-	height: 53px;
-	width: 53px;
+	height: 55px;
+	width: 55px;
 }
 
 #etabs .tabs {
@@ -25,13 +43,12 @@
 	width: 345px;
 	padding: 0px;
 	clear: both;
-	margin: 0px 0px 0px 9px;
+	margin: 0px 0px -2px 9px;
 	position: relative;
 	z-index: 1;
 }
 
 .tab-curr {
-	border-top: solid 2px #222222;
 }
 
 .grid-curr {

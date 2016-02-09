@@ -46,7 +46,6 @@ body {
 	margin: 0px -10px 0px 9px;
 	background-color: #ffffff;
 	border: solid 2px #ffffff;
-	border-top: 0px;
 	height: 137px;
 	width: 326px;
 	overflow: hidden;
@@ -138,4 +137,8 @@ body {
 	width: 35px;
 	height: 35px;
 	float: left;
+}
+
+.top-marg {
+	margin-top: 5px!important;
 }
