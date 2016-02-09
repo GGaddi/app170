@@ -41,47 +41,26 @@ body {
 	float: left;
 }
 
-#etabs {
-	clear: both;
-	width: 350px;
-	margin-top: 5px;
-	text-align: center;
-}
-
-.left-img-2 {
-	border-left: solid 2px #ffffff !important;
-}
-
-.right-img-2 {
-	border-right: solid 2px #ffffff !important;
-}
-
-#etabs .tabs img {
-	height: 53px;
-	width: 53px;
-	border: solid 1px #ffffff;
-	border-top: solid 2px #ffffff;
-	border-bottom: solid 2px #ffffff;
-}
-
-#etabs .tabs {
-	height: 57px;
-	margin: auto;
-}
 
 #etabs .items {
-	margin: 0px 9px 0px 9px;
+	margin: 0px -10px 0px 9px;
 	background-color: #ffffff;
 	border: solid 2px #ffffff;
 	border-top: 0px;
 	height: 137px;
+	width: 326px;
 	overflow: hidden;
 	border-bottom: solid 4px #ffffff;
+	position: relative;
 }
 
 #etabs .items .grid {
 	line-height: 0px;
 	text-align: center;
+	height: 137px;
+	width: 350px;
+	overflow: auto;
+	display: none;
 }
 
 .entries {

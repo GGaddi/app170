@@ -1,0 +1,39 @@
+#etabs {
+	clear: both;
+	width: 350px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.tab-img {
+	list-style: none;
+	float: left;
+	height: 53px;
+	width: 53px;	
+	border: solid 1px #ffffff;
+	border-top: solid 2px #ffffff;
+	border-bottom: solid 2px #ffffff;
+}
+
+.tab-img img {
+	height: 53px;
+	width: 53px;
+}
+
+#etabs .tabs {
+	height: 57px;
+	width: 345px;
+	padding: 0px;
+	clear: both;
+	margin: 0px 0px 0px 9px;
+	position: relative;
+	z-index: 1;
+}
+
+.tab-curr {
+	border-top: solid 2px #222222;
+}
+
+.grid-curr {
+	display: block!important;
+}

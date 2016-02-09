@@ -3,33 +3,7 @@ body {
 	background-color: #dddddd;
 }
 
-#etabs {
-	clear: both;
-	width: 350px;
-	margin-top: 5px;
-	text-align: center;
-}
 
-.left-img-2 {
-	border-left: solid 2px #ffffff !important;
-}
-
-.right-img-2 {
-	border-right: solid 2px #ffffff !important;
-}
-
-#etabs .tabs img {
-	height: 53px;
-	width: 53px;
-	border: solid 1px #ffffff;
-	border-top: solid 2px #ffffff;
-	border-bottom: solid 2px #ffffff;
-}
-
-#etabs .tabs {
-	height: 57px;
-	margin: auto;
-}
 
 #etabs .items {
 	margin: 0px 9px 0px 9px;
@@ -38,17 +12,26 @@ body {
 	border-top: 0px;
 	height: 164px;
 	overflow: hidden;
+	width: 328px;
 }
 
 #etabs .items .grid {
 	line-height: 0px;
 	text-align: left;
+	height: 164px;
+	width: 345px;
+	overflow: auto;
+	display: none;
 }
 
 #etabs .items .grid img {
 	height: 80px;
 	width: 80px;
 	margin: 1px;
+}
+
+.left-marg {
+	margin-left: 10px!important;
 }
 
 #buttons {
